@@ -60,28 +60,9 @@ const Navbar = () => {
         {/* Desktop Navigation Links */}
         <div className="navbar-links-desktop">
           <ul className="navbar-links-desk">
-          <li className="dropdown">
-  <span className="dropdown-toggle">О КУРСАХ</span>
-  <ul className="dropdown-menu">
-    <li>
+          <li>
       <a onClick={(e) => handleScrollToSection(e, "#about-courses")}>Базовые курсы</a>
     </li>
-    <li>
-  <a 
-    href="https://basic.eafo.info" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    onClick={(e) => {
-      e.preventDefault(); // Prevent default link behavior
-      handleScrollToSection(e, "#more-details");
-      window.open("https://basic.eafo.info", "_blank");
-    }}
-  >
-    Прекурс
-  </a>
-</li>
-  </ul>
-</li>
 
             <li>
               <a  onClick={(e) => handleScrollToSection(e, "#schedule")}>РАСПИСАНИЕ</a>
