@@ -57,7 +57,7 @@ const HeroSection = () => {
     {/* Registration Button */}
     <button
         className="registration-button same-width-button"
-        onClick={() => setShowForm(true)}
+        onClick={() => window.open("https://ui.eafo.info", "_blank")}
 
     >
         Регистрация

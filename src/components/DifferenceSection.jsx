@@ -46,7 +46,8 @@ const DifferenceSection = () => {
           <p className='info'>* Оплачиваемая первая, вторая или третья ординатура по любой специальности в РФ на выбор</p>
 
           <div className="difference-buttons">
-                        <button className="registration-button"  onClick={() => setShowForm(true)} >РЕГИСТРАЦИЯ</button>
+                        <button className="registration-button"          onClick={() => window.open("https://ui.eafo.info", "_blank")}
+ >РЕГИСТРАЦИЯ</button>
           </div>
         </div>
 
