@@ -61,7 +61,7 @@ const Navbar = () => {
         <div className="navbar-links-desktop">
           <ul className="navbar-links-desk">
           <li>
-      <a onClick={(e) => handleScrollToSection(e, "#about-courses")}>Базовые курсы</a>
+      <a onClick={(e) => handleScrollToSection(e, "#about-courses")}>БАЗОВЫЕ КУРСЫ</a>
     </li>
 
             <li>
